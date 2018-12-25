@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+}
+body,html{
+width: 100%;
+height: 100%;
+}
+ 
+body{
+    width: 100%;
+  
+background-image: url("../img/vision.png");
+}
+.title{
+position: absolute;
+left: 20px;
+top: 80px;
+color: #E9EDF2;
+} 
+
+.footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    background-color: #d3d3d3;
+    color: black;
+    text-align: center;
+    height: 18px;
+}
+.topimg{
+    position: absolute;
+    left: 30px;
+width: 100px;
+height: 100px;
+top: 5px;
+/* border: 2px yellow; */
+
+}
+#verticle-line{
+    border-left: 1px solid #1757A0;
+    height: 40px;
+    position: absolute;
+    left: 100px;
+    margin-left: -3px;
+    top: 15px;
+    /* border: 2px red; */
+  }
+  .topcontent{
+      position: absolute;
+      left: 120px;
+      top: 3px;
+    width: 100px;
+    height: 100px;
+    color: #1757A0;
+    font-size: 40px;
+    font-family: Arial;
+    /* border: 2px green; */
+  }
+
+  .maincontent {
+    position:fixed;
+    top: 40%;
+    left: 40%;
+    width:700px;
+        height:400px;
+        margin-top: -9em; /*set to a negative number 1/2 of your height*/
+        margin-left: -15em; /*set to a negative number 1/2 of your width*/
+         /* border: 1px solid red;  */
+        /* background-color: #f3f3f3; */
+    }
+    .maincontent p{
+        font-size:16px; 
+        color:#1757A0;
+        width: 500px; 
+        max-width: 70%;
+        position: relative;
+        left: 90%;
+        margin-left: -480px;
+        line-height: 1.4em;
+    }
